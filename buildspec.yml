@@ -1,0 +1,18 @@
+version: 0.1
+
+phases:
+  install:
+    commands:
+      - npm i npm@latest -g
+  pre_build:
+    commands:
+      - npm install
+  build:
+    commands:
+      - npm run build
+artifacts:
+  type: zip
+  paths:
+    - './.next/**/*'
+    - './appspec.yml'
+    - './package.json'
