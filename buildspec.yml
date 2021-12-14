@@ -8,7 +8,6 @@ phases:
   build:
     commands:
       - npm run build
-      - forever restartall
 artifacts:
   type: zip
   paths:
