@@ -13,7 +13,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js! A\ Sanjaypp
+          Welcome to <a href="https://nextjs.org">Next.js! Sanjay update the rerole
           </a>
         </h1>
 
