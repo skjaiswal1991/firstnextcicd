@@ -8,8 +8,6 @@ phases:
   build:
     commands:
       - npm run build
-      - sudo kill -9 `sudo lsof -t -i:3020`
-      - forever start -c "npm run start" ./
 artifacts:
   type: zip
   paths:
