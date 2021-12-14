@@ -13,6 +13,6 @@ phases:
 artifacts:
   type: zip
   paths:
-    - './.next/**/*'
+    - './**/*'
     - './appspec.yml'
     - './package.json'
