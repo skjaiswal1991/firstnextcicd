@@ -2,14 +2,13 @@ version: 0.1
 
 phases:
   install:
-    commands:
-      - npm i npm@7.20.3 -g
   pre_build:
     commands:
       - npm install
   build:
     commands:
       - npm run build
+      - forever restartall
 artifacts:
   type: zip
   paths:
