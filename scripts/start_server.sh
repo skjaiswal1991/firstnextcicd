@@ -5,7 +5,7 @@
 #give permissions 777
 sudo chmod -R 777 /var/www/html/firstnextcicd
 #install dependecies
-cd /var/www/html/Project-Name/ && npm install
+cd /var/www/html/firstnextcicd/ && npm install
 #Check server running or not accordingly start or reload server
 sudo pm2 describe firstnextcicd > /dev/null
 RUNNING=$?
